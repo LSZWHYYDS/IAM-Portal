@@ -1,0 +1,54 @@
+.bannerbg {
+  // background-color: rgb(238, 242, 249);
+  width: 100%;
+  margin-bottom: 4%;
+  padding: 1% 0;
+  overflow: hidden;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 3%;
+}
+.header {
+  display: inline-block;
+  font-weight: bolder;
+  font-size: 25px;
+}
+.desc {
+  display: flex;
+  flex-direction: column;
+  color: #212639;
+  font-size: 16px;
+  line-height: 2;
+}
+
+.insertBoxWidth {
+  width: 450px;
+}
+
+@media screen and (max-width: 992px) {
+  .insertBoxWidth {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .imgstyle {
+    width: 80%;
+    margin-bottom: 5%;
+  }
+
+  .desc {
+    font-size: 14px;
+    line-height: 1.8;
+    text-overflow: ellipsis;
+    opacity: 0.8;
+  }
+  .header {
+    font-size: 18px;
+  }
+}

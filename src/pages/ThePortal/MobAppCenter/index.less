@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 100%;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.avatar {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url('/porta/images/bg.jpg');
+  border-radius: 50%;
+}
+
+.wrapBorder {
+  height: fit-content;
+  margin-top: 30px;
+  border: 1px solid #e8e8e8;
+}
+
+.topIcon {
+  width: 80px;
+  height: 80px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  // background-image: url('/images/bg.jpg');
+  border-radius: 10px;
+}
+
+.applicationProfile,
+.applicationReason {
+  display: flex;
+  justify-content: center;
+}
+
+// .userTime {
+//   margin-top: 30px;
+// }
+
+.tab_scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.cellstyle {
+  :global {
+    .nut-textarea {
+      padding: 0;
+    }
+  }
+}

@@ -1,0 +1,96 @@
+// 模态框样式
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+}
+
+.avatar {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url('/portal/images/favicon.png');
+  border-radius: 50%;
+}
+
+.wrapBorder {
+  height: 70vh;
+  margin-top: 30px;
+  border: 1px solid #e8e8e8;
+}
+
+.topIcon {
+  width: 80px;
+  height: 80px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  // background-image: url('/images/bg.jpg');
+  border-radius: 10px;
+}
+
+.applicationProfileWrapper {
+  padding-left: 30px;
+}
+
+.applicationProfile,
+.applicationReason {
+  display: flex;
+  // justify-content: center;
+}
+
+.userTime {
+  margin-top: 30px;
+}
+
+.tab_scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.ant-pro-page-container-warp {
+  display: none !important;
+}
+
+.tags {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  cursor: pointer;
+}
+
+.tags:hover,
+.hoverStyle:hover {
+  box-shadow: 0 1px 2px -2px #00000029, 0 3px 6px #0000001f, 0 5px 12px 4px #00000017;
+}
+
+// .wrapper {
+//   :global {
+//     .ant-picker-date-range-wrapper {
+//       position: relative !important;
+//       left: 40px !important;
+//     }
+//   }
+// }
+
+.bgCls {
+  background-color: transparent !important;
+  border: 0 !important;
+}
+
+.wrapTabs {
+  :global {
+    .ant-space-item {
+      width: 100% !important;
+    }
+  }
+}
+
+.wrapper {
+  :global {
+    .ant-space-item {
+      width: 100%;
+    }
+  }
+}

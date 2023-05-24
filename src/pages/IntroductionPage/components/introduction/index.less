@@ -1,0 +1,44 @@
+.warrper {
+  display: flex;
+  width: 65%;
+  margin: 0 auto;
+  margin-bottom: 7%;
+}
+
+.itemHeader {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10%;
+  padding: 7%;
+}
+
+.icon::after {
+  position: absolute;
+  right: 0;
+  bottom: 15%;
+  width: 2px;
+  height: 40%;
+  background-color: #dfdfdf;
+  content: '';
+}
+
+.name {
+  margin-bottom: 2%;
+  color: #212639;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.content {
+  overflow: hidden;
+  color: #212639;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei,
+    Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif;
+  line-height: 1.5;
+  text-overflow: ellipsis;
+  opacity: 0.8;
+}

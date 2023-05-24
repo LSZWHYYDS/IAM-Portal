@@ -1,0 +1,40 @@
+.bannerbg {
+  width: 100%;
+  height: 460px;
+  overflow: hidden;
+  background-color: rgb(238, 242, 249);
+}
+.wrappers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 55%;
+  margin: 0 auto;
+  margin-top: 3%;
+}
+.lead {
+  width: 400px;
+}
+
+.h1style {
+  font-weight: bolder;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 992px) {
+  .headerWrapper {
+    margin: 20px 0 0 40px;
+  }
+
+  .h1style {
+    font-size: 22px;
+  }
+
+  .wrappers {
+    flex-direction: column;
+  }
+
+  .desc {
+    font-size: 16px;
+  }
+}
